@@ -79,6 +79,7 @@ def create_presentation(topic, slide_titles, slide_contents):
 
 def main():
     st.title("PowerPoint Presentation Generator by Ethan Sarkar")
+    st.markdown("Introducing our innovative Generative AI PowerPoint Maker! Revolutionizing the way presentations are crafted, this cutting-edge tool harnesses the power of artificial intelligence to create dynamic and engaging slideshows effortlessly. By simply inputting your key points and desired themes, our AI algorithms generate visually stunning slides, complete with relevant graphics, animations, and transitions. Say goodbye to tedious manual design work and hello to polished presentations in minutes. Whether you're a seasoned professional or a novice presenter, our Generative AI PowerPoint Maker streamlines the process, allowing you to focus on delivering impactful content with confidence. Unlock the potential of your presentations with this game-changing tool today!")
 
     topic = st.text_input("Enter the topic for your presentation:")
     generate_button = st.button("Generate Presentation")
